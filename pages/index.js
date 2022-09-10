@@ -92,32 +92,57 @@ export default function Home() {
           <p className='text-center text-lg px-8 font-black py-2 pt-4'>
             Alasan kenapa WAJIB banget Import China dari sekarang
           </p>
-          <ul className='w-[350px] mx-auto pl-8 space-y-0 mt-0'>
-            <li>
-              <p className='text-md -pt-6'>
+
+          <div className='w-[350px] mx-auto space-y-1'>
+            <div className='flex justify-start'>
+              <Image
+                src='https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg'
+                alt=''
+                width={20}
+                height={20}
+              />
+              <p className='text-sm pl-2'>
                 <b>Berkesempatan Jadi Penjual Tunggal</b> produk unik di
                 Indonesia
               </p>
-            </li>
-            <li>
-              <span className='text-md'>
-                Mendapatkan{' '}
-                <b>Produk Impor Langsung Dari Supplier Tangan Pertama</b> &
+            </div>
+            <div className='flex justify-start'>
+              <Image
+                src='https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg'
+                alt=''
+                width={20}
+                height={20}
+              />
+              <p className='text-sm pl-2'>
+                Mendapatkan
+                <b> Produk Impor Langsung Dari Supplier Tangan Pertama</b> &
                 Pabrik
-              </span>
-            </li>
-            <li>
-              <span className='text-md'>
+              </p>
+            </div>
+            <div className='flex justify-start'>
+              <Image
+                src='https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg'
+                alt=''
+                width={20}
+                height={20}
+              />
+              <p className='text-sm pl-2'>
                 Jutaan produk <b>Anti Perang Harga</b> dari Ribuan Supplier di
                 China
-              </span>
-            </li>
-            <li>
-              <span className='text-md'>
+              </p>
+            </div>
+            <div className='flex justify-start'>
+              <Image
+                src='https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg'
+                alt=''
+                width={20}
+                height={20}
+              />
+              <p className='text-sm pl-2'>
                 Bisa buat <b>Merk Usaha Sendiri Tanpa Ribet</b> urus produksi
-              </span>
-            </li>
-          </ul>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

@@ -10,11 +10,3 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-li {
-  list-style-image: url(https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg);
-}
-
-li::marker {
-  font-size: 30px;
-}

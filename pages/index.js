@@ -24,6 +24,14 @@ export default function Home() {
             className='w-96'
           />
         </div>
+        <div className='flex justify-center items-center my-6'>
+          <a
+            className='bg-amber-500 rounded-md py-3 px-5 text-white font-medium'
+            href='https://ocistok.com/register'
+          >
+            DAFTAR GRATIS SEKARANG!
+          </a>
+        </div>
       </div>
 
       <div className='mx-4'>
@@ -100,6 +108,7 @@ export default function Home() {
                 alt=''
                 width={20}
                 height={20}
+                layout='intrinsic'
               />
               <p className='text-sm pl-2'>
                 <b>Berkesempatan Jadi Penjual Tunggal</b> produk unik di
@@ -110,8 +119,9 @@ export default function Home() {
               <Image
                 src='https://ocistok.co.id/control-panel/foto/check-svgrepo-com.svg'
                 alt=''
-                width={20}
-                height={20}
+                width={24}
+                height={24}
+                layout='intrinsic'
               />
               <p className='text-sm pl-2'>
                 Mendapatkan
@@ -125,6 +135,7 @@ export default function Home() {
                 alt=''
                 width={20}
                 height={20}
+                layout='intrinsic'
               />
               <p className='text-sm pl-2'>
                 Jutaan produk <b>Anti Perang Harga</b> dari Ribuan Supplier di
@@ -137,6 +148,7 @@ export default function Home() {
                 alt=''
                 width={20}
                 height={20}
+                layout='intrinsic'
               />
               <p className='text-sm pl-2'>
                 Bisa buat <b>Merk Usaha Sendiri Tanpa Ribet</b> urus produksi
